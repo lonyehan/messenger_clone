@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:messenger_clone/screen/chat_room.dart';
+import 'package:messenger_clone/screen/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ChatRoomScreen(),
+      home: const HomeScreen(),
     );
   }
 }
